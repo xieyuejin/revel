@@ -14,7 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/net/websocket"
+	"github.com/golang/net"
+	"github.com/golang/net/websocket"
 )
 
 type Result interface {

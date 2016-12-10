@@ -4,7 +4,8 @@ import (
 	"io"
 	"reflect"
 
-	"golang.org/x/net/websocket"
+	"github.com/golang/net"
+	"github.com/golang/net/websocket"
 )
 
 var (
