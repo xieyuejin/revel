@@ -14,7 +14,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/net"
 	"github.com/golang/net/websocket"
 )
 
